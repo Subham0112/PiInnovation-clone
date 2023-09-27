@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Innovation{
+ margin-right: 250px;
+    font-size: 26px;
+    font-family:Jost,sans-serif;
+    padding-top: 16px;
+    padding-left: 10px;
+}
+.In{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    
+    padding-left: 100px;
+    width:75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    border-style: none;
+    border-radius: 3px;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(42, 44, 43,0.4);;
+    color: white;
+    
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.nav-menu{
+    padding-right: 90px;
+       list-style: none;
+       display: flex;
+}
+a{
+font-weight: 500px;
+    font-family:"Open Sans",sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    align-self: center;
+    padding: 15px;
+}
+a:hover{
+    color:#47b2e4;
+    cursor: pointer;
+}
+.body{
+    overflow: hidden;
+    border-style: none;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 450px;
+    color: white;
+background-color: #2A2C2B;
+}
+.text{
+    padding: 70px 0px 30px 100px;
+}
+.text1, .text2{
+    font-family: sans-serif;
+font-size:40px;
+}
+.text3{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(133, 118, 118, 0.8);
+}
+.image{
+    animation: innovate 2s ease-in-out infinite alternate-reverse;
+    border-style: none;
+    margin-top: 15px;
+    padding-right: 150px;
+    height:360px;
+    width:460px;
+}
+@keyframes innovate {
+    from{
+        margin-top:40px ;
+    }
+    to{
+        margin-bottom:40px;
+    }
+    
+}
+.button1{
+    cursor:pointer;
+    color: white;
+    margin-top: 30px;
+    border:0.5px solid transparent;
+    width:150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.our-clients{
+    font-size: 35px;
+    font-family:sans-serif;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: #37517E;
+}
+.all-logo{
+    margin-top:70px ;
+}
+.logo1, .logo2, .logo3{
+    padding: 20px;
+    padding-left: 50px;
+    height: 80px;
+    width:80px;
+}
+.logo1{
+    height: 40px;
+    width: 100px;
+    padding-bottom: 30px;
+}
+.all-client{
+    background-color:rgba(157, 172, 182, 0.281);
+    height: 250px;
+    padding-top: 15px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.pi1{
+    padding-right: 150px;
+    height:100px;
+    width:400px;
+}
+.about-us{
+    padding-top: 50px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+}
+.t-i{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.text4{
+    line-height: 25px;
+    font-family: sans-serif ;
+    height: 200px;
+    width: 500px;
+}
+.ab{
+ color:#37517E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+.last{
+
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    height: 80px;
+    background-color: #37517E;
+padding-left: 130px;
+}
+.foot{
+    font-size: 14px;
+    font-family: sans-serif;
+ color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.whole-pillars{
+    display: flex;
+    height: 610px;
+    background-color:rgba(157, 172, 182, 0.281);
+}
+.pil{
+
+    padding-left: 10px;
+    font-family: sans-serif;
+    color: #444444;
+}
+.pillar-list{
+    list-style: none;
+    background-color: white;
+    border-radius:5px ;
+    height: 70px;
+    display: inline-block;
+    width:560px;
+    margin:8px;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+.lists{
+    margin-top:20px;
+}
+.whole{
+    margin-left: 80px;
+    padding-top: 120px;
+    /* background-color: rgb(3, 119, 221); */
+    height: 430px;
+    width: 600px;
+}
+i{
+   
+}
+#d3{
+    padding-left: 420px;
+    padding-top: 10px;
+}
+#d2{
+    padding-left: 420px;
+    padding-top: 10px;
+}
+#d4{
+    padding-top: 10px;
+    padding-left:460px
+}
+#d1{
+    padding-top: 10px;
+    padding-left:430px
+}
+.data-image{
+    padding-top: 100px;
+    margin-right:70px;
+    width: 590px;
+    height: 420px;
+}
+ .whole-services{
+    background-color:rgba(157, 172, 182, 0.281) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 525px;
+ }
+ .our-serv{
+    color: #37517E ;
+    font-size: 32px;
+    font-family: sans-serif;
+ }
+ .services{
+    margin-top: 25px;
+    
+    justify-content: space-between;
+     align-items: center;
+
+    width: 1150px;
+    height: 380px;
+    display: flex;
+ }
+ .service-1{
+    box-shadow:5px 5px 10px rgba(161, 159, 159, 0.473) ;
+    background-color: white;
+    height: 295px;
+    width: 260px;
+ cursor:pointer;
+ }
+ .service-1:hover{
+    animation: s1 0.5s ease-in-out 0s 1 alternate forwards;
+ }
+ 
+ @keyframes s1 {
+    from{margin-bottom: 0px;}
+    to{margin-bottom: 30px;}
+    
+ }
+ .service-2{
+    box-shadow:5px 5px 10px rgba(161, 159, 159, 0.473);
+    background-color: white;
+    height: 295px;
+    width: 260px;
+  cursor:pointer;
+ }
+ .service-2:hover{
+    animation: s2 0.5s ease-in-out 0s 1 alternate forwards;
+ }
+ @keyframes s2 {
+    from{margin-bottom: 0px;}
+    to{margin-bottom: 30px;}
+    
+ }
+ .service-3{
+    box-shadow:5px 5px 10px rgba(161, 159, 159, 0.473) ;
+    background-color: white;
+    height: 295px;
+    width: 260px;
+    cursor:pointer;
+ }
+ .service-3:hover{
+    animation: s3 0.5s ease-in-out 0s 1 alternate forwards;
+ }
+ @keyframes s3 {
+    from{margin-bottom: 0px;}
+    to{margin-bottom: 30px;}
+    
+ }
+ .service-4{
+    box-shadow:5px 5px 10px rgba(161, 159, 159, 0.473) ;
+    background-color: white;
+    height: 295px;
+    width: 260px;
+    cursor:pointer;
+ }
+ .service-4:hover{
+    animation: s4 0.5s ease-in-out 0s 1 alternate forwards;
+ }
+ @keyframes s4 {
+    from{margin-bottom: 0px;}
+    to{margin-bottom: 30px;}
+    
+ }
+ .fa-laptop{
+    color:rgb(80, 197, 243);
+   font-size: 25px;
+ }
+ .fa-graduation-cap{
+    color:rgb(80, 197, 243);
+    font-size: 25px;
+ }
+ .fa-computer{
+    color:rgb(80, 197, 243);
+    font-size: 25px;
+ }
+ .fa-chart-line{
+    color:rgb(80, 197, 243);
+    font-size: 25px;
+ }
+ .design{
+    color:  #37517E;
+    padding-top:15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 25px;
+ }
+ .design-1{
+    color: rgb(94, 92, 92);
+    font-family: sans-serif;
+    font-size: 14px;
+ }
+ .all-design{
+    height: 195px;
+    padding:50px 30px 50px 30px;
+ }
+ .training{
+    color:  #37517E;
+    padding-top:15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 25px;
+ }
+ .training-1{
+    color: rgb(94, 92, 92);
+    font-family: sans-serif;
+    font-size: 14px;
+ }
+ .all-training{
+    height: 195px;
+    padding:50px 30px 50px 30px;
+ }
+ .app{
+    color:  #37517E;
+    padding-top:15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 25px;
+ }
+ .app1{
+    color: rgb(94, 92, 92);
+    font-family: sans-serif;
+    font-size: 14px;
+ }
+ .all-apps{
+    height: 195px;
+    padding:50px 30px 50px 35px;
+ }
+ .marketing{
+    color: #37517E;
+    padding-top:15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 24px;
+ }
+ .marketing-1{
+    color: rgb(94, 92, 92);
+    font-family: sans-serif;
+    font-size: 14px;
+ }
+ .all-marketing{
+    height: 195px;
+    padding:50px 30px 50px 30px;
+ }
