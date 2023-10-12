@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PI INNOVATIONS</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -12,14 +13,14 @@
         <div class="In">
         <img src="PI.webp" alt="logo"><span class="Innovation"><b>PI INNOVATIONS</b></span></div>
         <nav><ol class="nav-menu">
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
 
         </ol></nav>
     </header>
-        <div class="body">
+        <div class="body" id="menu">
             <div class="text">
                 <p class="text1">Nuturing Future Generation,</p>
                 <p class="text2">For the Next Renaissance.</p>
@@ -40,7 +41,7 @@
 
         </div>
     </div>
-    <div class="about-us">
+    <div class="about-us" id="about">
         <h1 class="ab">
             About-us
         </h1>
@@ -67,22 +68,56 @@
     </div>
     <img src="database-removebg.png" alt="database" class="data-image">
     </section>
-<section class="whole-services">
+<section class="whole-services" id="service">
     <h1 class="our-serv">Services</h1>
     <div class="services">
-<div class="service-1"><div class="all-design"><i class="fa-solid fa-laptop"></i><p class="design">Design and Web Development</p><br>
+        <label for="s1"></label>
+<div class="service-1"><div class="all-design"><i class="fa-solid fa-laptop"></i><p class="design" id="s1">Design and Web Development</p><br>
     <p class="design-1">In digital age, Eye catching design and website is best spear.</p></div></div>
-<div class="service-2"> <div class="all-training"><i class="fa-solid fa-graduation-cap"></i> <p class="training">Training</p><br><br><p class="training-1">Never stop learning, the moment you stop learning you lose.</p> </div></div>
-<div class="service-3"><div class="all-apps"><i class="fa-solid fa-computer"></i> <p class="app">App Development</p><br>
+    <label for="s2"></label>
+<div class="service-2"> <div class="all-training"><i class="fa-solid fa-graduation-cap"></i> <p class="training" id="s2">Training</p><br><br><p class="training-1">Never stop learning, the moment you stop learning you lose.</p> </div></div>
+<label for="s3"></label>
+<div class="service-3"><div class="all-apps"><i class="fa-solid fa-computer"></i> <p class="app" id="s3">App Development</p><br>
 <p class="app1">Every user uses a device and you need an app to reach them.</p></div></div>
-<div class="service-4"> <div class="all-marketing"><i class="fa-solid fa-chart-line"></i><p class="marketing">Digital Marketing and Data Analysis</p><br><p class="marketing-1">Data Analysis and Digital Marketing is the forefront of Modern Market.</p></div></div>
+<label for="s4"></label>
+<div class="service-4"> <div class="all-marketing"><i class="fa-solid fa-chart-line"></i><p class="marketing" id="s4">Digital Marketing and Data Analysis</p><br><p class="marketing-1">Data Analysis and Digital Marketing is the forefront of Modern Market.</p></div></div>
     </div>
 </section>
+<section class="our-tech">
+    <h1 class="we">Technologies We Use</h1>
+    <div class="languages">
+        <img src="Python-logo-notext.svg.png" class="img1" id="i">
+        <img src="HTML5_logo_and_wordmark.png" class="img2" id="i">
+        <img src="Django_logo.png" class="img3" id="i">
+        <img src="Node.js_logo.svg.png" class="img4" id="i">
+        <img src="CSS3_logo_and_wordmark.svg.png" class="img5" id="i">
+        <img src="Vue.js_Logo_2.svg.png" class="img6" id="i">
+    </div>
+</section>
+<section class="contact-us" id="contact">
+    <h1 class="con">Contact</h1>
+    <div class="whole-contact">
+   <div class="location">
+<div class="whole-location"><div class="loc"><i class="fa-solid fa-location-dot"></i></div>
+ <div class="locate"><h1 class="lo">Location:</h1> <p class="tri">Tribeni Marga, Biratnagar, Nepal</p></div></div>
+<div class="whole-email"><div class="mail"><i class="fa-regular fa-envelope"></i></div>
+ <div class="email"><h1 class="em">Email:</h1> <p class="em1">contact.pinnov@gmail.com</p></div></div>
+<div class="whole-number"><div class="call"><i class="fa-solid fa-phone"></i></div>
+ <div class="call"><h1 class="cal">Call</h1> <p class="num">+9779851335428</p></div></div>
+</div>
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.1010939902876!2d87.26918217430702!3d26.45247007971992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef752b2cfcf165%3A0xb89f1e97f94b387b!2sPi%20Innovations!5e0!3m2!1sen!2snp!4v1697118552381!5m2!1sen!2snp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</section>
+
     <footer>
         <div class="last">
         <pre class="foot"><i class="fa-regular fa-copyright"></i>  Copyright PI Innovation PVT.Ltd. All right reserved </pre>
     </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </body>
 </html>
